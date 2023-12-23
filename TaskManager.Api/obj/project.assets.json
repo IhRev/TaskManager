@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TaskManager.Api.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TaskManager.Api.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManager.Api.Core.dll": {}
+        }
       }
     }
   },
@@ -460,12 +470,18 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TaskManager.Api.Core/1.0.0": {
+      "type": "project",
+      "path": "../TaskManager.Api.Core/TaskManager.Api.Core.csproj",
+      "msbuildProject": "../TaskManager.Api.Core/TaskManager.Api.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "TaskManager.Api.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -494,7 +510,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/igorreva/Projects/TaskManager/TaskManager.Api.Core/TaskManager.Api.Core.csproj": {
+              "projectPath": "/Users/igorreva/Projects/TaskManager/TaskManager.Api.Core/TaskManager.Api.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

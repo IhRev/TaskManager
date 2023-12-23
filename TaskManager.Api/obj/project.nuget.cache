@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vdYPNF5TnmfOzdP5nTtRvPhA6PiXwn0jvTEK3u8fanOpx53zFMPqIpTDu60M/AxcX26Mvk1I6cmYrUPLOYCgPg==",
+  "dgSpecHash": "BhuiIWyD+tc178ge3uFN/D379m7y8U9dJQV9OfMrca8BfMwGIhLnw6OdES2jWNZr5MFXNDXhueI5gcsNDfBA4w==",
   "success": true,
   "projectFilePath": "/Users/igorreva/Projects/TaskManager/TaskManager.Api/TaskManager.Api.csproj",
   "expectedPackageFiles": [

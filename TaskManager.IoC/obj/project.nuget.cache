@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5BsW5jjHv2PcQTEG8UmEISkfwOHwwfD7KrgDl/nR7nnNBBVEph0Wc6DZI4O9zG9wYX/iVWMNW5A92uE3rBoszg==",
+  "success": true,
+  "projectFilePath": "/Users/igorreva/Projects/TaskManager/TaskManager.IoC/TaskManager.IoC.csproj",
+  "expectedPackageFiles": [
+    "/Users/igorreva/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/igorreva/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
